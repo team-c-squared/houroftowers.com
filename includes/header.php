@@ -1,3 +1,5 @@
+<?php require_once "main.php"; ?>
+
 <div class="header">
     <!-- Main Header Container -->
     <div class="container">
