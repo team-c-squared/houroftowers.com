@@ -4,9 +4,9 @@
 
 <html>
     <head>
-        <title><?php echo TITLE; ?></title>
+        <?php include "head.php"; ?>
     </head>
     <body>
-        <h1>Test</h1>
+        <?php include "header.php"; ?>
     </body>
 </html>
