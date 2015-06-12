@@ -11,4 +11,7 @@
     define(DESCRIPTION, "A tower defense game that towers above the rest");
 
     /* Define functions. */
+
+    /* Initialization. */
+    date_default_timezone_set("America/Detroit");
 ?>
