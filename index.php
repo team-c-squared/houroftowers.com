@@ -12,8 +12,22 @@
             <!-- Screenshot carousel -->
             <div class="row row-centered">
                 <div class="col-md-8 col-md-offset-2">
-                    <img src="/images/screenshots/screenshot_1.png" class="img-responsive"/>
+                    <div id="screenshot-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images/screenshots/screenshot_1.png"/>
+                            </div>
+                            <div class="item">
+                                <img src="images/screenshots/screenshot_2.png"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <script type="text/javascript">
+                    $('carousel').carousel({
+                        interval: 2000
+                    })
+                </script>
             </div>
             <!-- Information Row -->
             <div class="row row-centered">
