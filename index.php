@@ -4,9 +4,9 @@
 
 <html>
     <head>
-        <?php include "head.php"; ?>
+        <?php include "includes/head.php"; ?>
     </head>
     <body>
-        <?php include "header.php"; ?>
+        <?php include "includes/header.php"; ?>
     </body>
 </html>
